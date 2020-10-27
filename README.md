@@ -54,15 +54,14 @@ where we have an array of type structure which will be traversed in search of th
 
 ```
 form_ form1[] = {
-      	      {"c", _char},
-			{"s", _string},
-				{"d", print_number},
-					{"i", print_number},
-						{"b", print_binary},
-							{NULL, NULL}
-							       };
-							       ```
-							       but if it does not find equality, it will return NULL.
+		{"c", _char},
+		{"s", _string},
+		{"d", print_number},
+		{"i", print_number},
+		{"b", print_binary},
+		{NULL, NULL}
+	};
+```
 
 ### charstring.c file
 
