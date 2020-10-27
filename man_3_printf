@@ -9,7 +9,7 @@
 
 #include "holberton.h"
 
-Int _printf(const char *[FORMAT], …);
+Int _printf(const char *[FORMAT],...);
 
 .SH DESCRIPTION
 .SH ""
