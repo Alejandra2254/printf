@@ -9,7 +9,7 @@
 
 #include "holberton.h"
 
-Int _printf(const char *[FORMAT],...);
+int _printf(const char *[FORMAT],...);
 
 .SH DESCRIPTION
 .SH ""
@@ -31,7 +31,7 @@ $ gcc -Wall -Werror -Wextra -pedantic -Wno-format *.c
 .SS Printing
 .RS
 
-Int _printf(const char *[FORMAT],...);
+int _printf(const char *[FORMAT],...);
 
 FORMAT is the string that takes n specifier followed by a "%" symbol. i.e. "Hello this is %s form %d cohort". (...) is the variadic function, (n) number of arguments
 
