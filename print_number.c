@@ -15,7 +15,7 @@ int print_number(va_list lista)
 	if (!n)
 	{
 		_putchar('0');
-		return(1);
+		return (1);
 	}
 	tmp = n;
 	i = n;
@@ -42,5 +42,5 @@ int print_number(va_list lista)
 		count++;
 		tmp = tmp / 10;
 	}
-	return(count);
+	return (count);
 }
