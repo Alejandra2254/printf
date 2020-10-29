@@ -24,5 +24,5 @@ int _char(va_list lista);
 int _string(va_list lista);
 int print_number(va_list n);
 int print_binary(va_list list);
-
+int _reverse(va_list lista);
 #endif

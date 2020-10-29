@@ -13,6 +13,7 @@ int (*get_format(char s))(va_list)
 		{"d", print_number},
 		{"i", print_number},
 		{"b", print_binary},
+		{"r", _reverse},
 		{NULL, NULL}
 	};
 
