@@ -1,5 +1,5 @@
-# Printf project
-### By Paola Carrero and Alejandra Higuera
+# Printf, from zero in C
+### By [Paola Carrero](https://github.com/py-cc) and [Alejandra Higuera](https://github.com/Alejandra2254)
 
 The objective of this project is to gather concepts learned to date and unify them in several tasks to achieve a step-by-step replica of the printf function.
 
@@ -11,7 +11,7 @@ Many programming languages implement a function printf (print formatted), to dis
 int printf(const char* format,...)
 ```
 where the string format provides a description of the output string according to the different variables and their writing formats.
-for Example:
+for Example: 
 
 ```
 printf("%2d",   1234);
@@ -38,7 +38,7 @@ It is our header file, which contains the prototypes of the functions and will b
 ```
 #include "holberton.h"
 ```
-### _printf.c file
+### _printf.c file 
 
 ```
 int _printf(const char *format, ...)
@@ -62,6 +62,7 @@ form_ form1[] = {
 		{NULL, NULL}
 	};
 ```
+but if it does not find equality, it will return NULL.
 
 ### charstring.c file
 
@@ -71,10 +72,26 @@ This file contains two functions, the first is the call of the character 'c' and
 int _char(va_list lista)
 int _string(va_list lista)
 ```
+#### Examples 
+```
+_printf("Print char: %c\n", 'H');
+Output: Print char: H
+
+_printf("Print string: %s\n", 'Pao y Ale');
+Output: Print String: Pao y Ale 
+```
 ### printnumber.c file
 
-This function is the call of the character 'd' and 'i' to print numbers type integer.
+This function is the call of the character 'd' and 'i' to print numbers type integer. 
 
 ```
 int print_number(va_list lista)
+```
+#### Examples 
+```
+_printf("Print integer: %i\n", 1996);
+Output: Print integer: 1996
+
+_printf("Print decimal: %d\n", '2020');
+Output: Print decimal: 2020
 ```
